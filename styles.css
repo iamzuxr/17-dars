@@ -1,0 +1,126 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-view{
+    height: 750px;
+    background-color: aquamarine;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+    padding: 10px;
+}
+.content{
+    display: flex;
+    padding-top: 25px;
+}
+.press-page{
+    width: 550px;
+    height: 700px;
+    background-image: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.press-page-box{
+    padding: 250px 120px;
+}
+.press-page__title{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: bisque;
+    padding-bottom: 15px;
+}
+.press-page__text{
+    font-family: sans-serif;
+    color: bisque;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.press-page__link{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(169, 245, 208);
+    border-radius: 25px;
+    padding: 12px;
+}
+.fa-folder{
+    color: rgb(201, 199, 197);
+    font-size: 25px;
+    
+}
+.press-page__link-iteam{
+    font-size: 22px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(122, 121, 121);
+    padding-left: 15px;
+    font-weight: bolder;
+}
+.press-page__link-iteam:hover{
+    color: rgb(20, 22, 22);
+    transition: 00.5s;
+}
+.main-veiw{
+    width: 650px;
+    padding: 30px 50px;
+    background-color: #fff;
+    
+}
+.main-view__title{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-grip-lines{
+    font-size: 30px;
+    color: #333;
+}
+.main-view__title-iteam{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 20px;
+    
+}
+.main-view__years{
+    margin-left: -10px;
+    padding-bottom: 25px;
+}
+.year-iteam{
+    font-size: 25px;
+    color: #777;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.year-iteam:hover{
+    color: #111;
+    transition: 0.5s;
+}
+.main-view__information{
+    display: flex;
+    font-size: 20px;
+    color: #444;
+    font-weight: bold;
+    margin-left: -10px;
+    margin-top: 50px;
+}
+.information-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.information_text{
+    padding: 10px;
+}
+.information-date{
+    font-size: 30px;
+    font-weight: 10;
+    margin-left: 50px;
+}
+.month-year{
+    margin-left: 10px;
+}
